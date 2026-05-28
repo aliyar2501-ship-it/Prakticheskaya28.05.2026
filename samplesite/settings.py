@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'samplesite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myproject_db',      # Имя базы данных, которую ты создал в pgAdmin
-        'USER': 'postgres',          # Имя пользователя по умолчанию
-        'PASSWORD': 'Sorenta073',   # Пароль, который ты задал при установке
-        'HOST': 'localhost',         # БД находится на твоем компьютере
-        'PORT': '5432',              # Стандартный порт PostgreSQL
+        'NAME': 'myproject_db',
+        'USER': 'postgres',
+        'PASSWORD': 'Sorenta073',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
